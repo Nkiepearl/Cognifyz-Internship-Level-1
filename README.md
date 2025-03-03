@@ -1,1 +1,1 @@
-# SQL-Data-Cleaning-Project
+# Cognifyz Internship Program Data Analysis
