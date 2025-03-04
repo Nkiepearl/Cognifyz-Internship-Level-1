@@ -100,7 +100,7 @@ Restaurants and food delivery platforms require **data-driven insights** to opti
 
 ---
 
-## 🛠️ Tools
+## 🔧 Tools
 - **Programming Language:** Python  
 - **Libraries:** Pandas, NumPy, Matplotlib, Seaborn  
 - **Data Visualization:** Bar Charts, Pie Charts, Boxplots  
