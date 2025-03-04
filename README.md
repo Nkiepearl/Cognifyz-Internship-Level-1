@@ -1,133 +1,142 @@
-# Restaurant Data Analysis
+# 🍽️ Restaurant Data Analysis  
 
-## Table of Contents
-- [Description](#description)
-- [Project Overview](#project-overview)
-- [Data Source](#data-source)
-- [Business Problem](#business-problem)
-- [Project Objective](#project-objective)
-- [Steps Followed](#steps-followed)
-- [Tools](#tools)
-- [Findings](#findings)
-- [Note](#note)
+## 📌 Table of Contents  
+- [Description](#-description)  
+- [Project Overview](#-project-overview)  
+- [Data Source](#-data-source)  
+- [Business Problem](#-business-problem)  
+- [Project Objective](#-project-objective)  
+- [Steps Followed](#-steps-followed)  
+- [Tools](#-tools)  
+- [Key Findings](#-key-findings)  
+- [Note](#-note)  
 
-### Description
-This project focuses on analyzing restaurant data to uncover key insights related to cuisine popularity, city-wise distribution, price range trends, and online delivery services.
+---
 
-### Project Overview
-The analysis includes:
+## 📖 Description  
+This project analyzes restaurant data to uncover insights related to:  
+- **Popular cuisines** across different locations.  
+- **City-wise restaurant distribution** and rating trends.  
+- **Price range variations** among restaurants.  
+- **Impact of online delivery** on customer ratings.  
 
-- Identifying the most common cuisines and their prevalence.
-- Examining restaurant distribution and ratings across different cities.
-- Understanding the distribution of price ranges among restaurants.
-- Investigating the impact of online delivery services on restaurant ratings.
+By leveraging data analytics, this project provides useful insights for **restaurant owners, food delivery platforms, and industry stakeholders**.  
 
-By leveraging data analytics, this project aims to provide valuable insights for restaurant owners, food delivery platforms, and stakeholders in the food industry.
+---
 
-### Data Source
-The dataset used in this project was sourced from Cognifyz internship programme. It contains restaurant details, including cuisine type, location, ratings, price range, and online delivery availability.
+## 📊 Project Overview  
+The analysis includes:  
+- **Cuisine Trends** – Identifying the most common cuisines.  
+- **City-Wise Restaurant Data** – Understanding restaurant distribution and ratings.  
+- **Price Range Distribution** – Analyzing restaurant price categories.  
+- **Online Delivery Impact** – Evaluating the influence of delivery services on ratings.  
 
-### Business Problem
-Restaurants and food delivery platforms need data-driven insights to optimize menu offerings, expansion strategies, pricing models, and service options. Key challenges include:
+---
 
-- Identifying the most popular cuisines to cater to customer demand.
-- Determining the best cities for restaurant expansion based on density and ratings.
-- Understanding price trends to position restaurants effectively in the market.
-- Evaluating the impact of online delivery services on customer satisfaction and business performance.
+## 📂 Data Source  
+The dataset was sourced from the **Cognifyz Internship Programme** and contains:  
+- **Cuisine Type**  
+- **Restaurant Locations**  
+- **Ratings & Reviews**  
+- **Price Range**  
+- **Online Delivery Availability**  
 
-### Project Objective
-- Cuisine Analysis: Identify the top three most common cuisines and their distribution across restaurants.
-- City Analysis: Determine the city with the highest number of restaurants and analyze average ratings per city.
-- Price Range Distribution: Visualize price categories among restaurants and calculate the percentage of restaurants in each range.
-- Online Delivery Impact: Analyze the percentage of restaurants offering online delivery and compare their average ratings with non-delivery restaurants.
+---
 
-### Steps Followed
-1. Data Loading: Imported the dataset and performed an initial inspection to understand its structure.
+## 💡 Business Problem  
+Restaurants and food delivery platforms require **data-driven insights** to optimize their operations and improve customer satisfaction.  
 
-2. Data Cleaning: Handled missing values, duplicates, and ensured data consistency.
+**Key challenges include:**  
+- Identifying the **most popular cuisines** to meet customer demand.  
+- Determining **which cities have the highest restaurant density** and best ratings.  
+- Understanding **how price categories vary** across different locations.  
+- Evaluating **whether online delivery services impact customer ratings.**  
 
-3. Cuisine Analysis:
+---
 
-Identified the top three most common cuisines:
+## 🎯 Project Objective  
+- **Cuisine Analysis:** Identify the top three most common cuisines.  
+- **City Analysis:** Determine the city with the most restaurants and analyze average ratings.  
+- **Price Range Distribution:** Visualize how restaurants are categorized by pricing.  
+- **Online Delivery Impact:** Compare ratings of restaurants with and without delivery services.  
 
-- North Indian: 2,992 restaurants
-- Chinese: 1,880 restaurants
-- Fast Food: 1,314 restaurants
+---
 
-4. City Analysis:
+## 🔍 Steps Followed  
 
-Determined the city with the highest number of restaurants: New Delhi.
+### 1️⃣ Data Loading  
+- Imported dataset and performed an initial inspection.  
 
-Analyzed city-wise average ratings:
+### 2️⃣ Data Cleaning  
+- Handled missing values, removed duplicates, and ensured data consistency.  
 
-- Highest-rated city: Inner City (highest average rating).
-- Sample city-wise ratings:
-- Istanbul: 4.29
-- Abu Dhabi: 4.30
-- Agra: 3.97
-- Ahmedabad: 4.16
+### 3️⃣ Cuisine Analysis  
+- **Top 3 most common cuisines:**  
+  - **North Indian** – 2,992 restaurants  
+  - **Chinese** – 1,880 restaurants  
+  - **Fast Food** – 1,314 restaurants  
 
-5. Price Range Distribution:
+### 4️⃣ City Analysis  
+- **City with the most restaurants:** **New Delhi**  
+- **Highest-rated city:** **Inner City**  
+- **Sample average ratings by city:**  
+  - **Istanbul** – 4.29  
+  - **Abu Dhabi** – 4.30  
+  - **Agra** – 3.97  
+  - **Ahmedabad** – 4.16  
 
-Created visualizations (histograms, bar charts) to show the distribution of restaurants across different price categories.
+### 5️⃣ Price Range Distribution  
+- **Restaurant price categories:**  
+  - **Budget (1-star)** – 46.53%  
+  - **Mid-range (2-star)** – 32.59%  
+  - **Premium (3-star)** – 14.74%  
+  - **Luxury (4-star)** – 6.14%  
 
-Distribution percentages:
+### 6️⃣ Online Delivery Impact  
+- **Percentage of restaurants offering online delivery:** 25.66%  
+- **Comparison of average ratings:**  
+  - **With online delivery** – 3.25  
+  - **Without online delivery** – 2.47  
 
-- Budget (1-star restaurants): 46.53%
-- Mid-range (2-star restaurants): 32.59%
-- Premium (3-star restaurants): 14.74%
-- Luxury (4-star restaurants): 6.14%
+---
 
-6. Online Delivery Impact:
+## 🛠️ Tools
+- **Programming Language:** Python  
+- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn  
+- **Data Visualization:** Bar Charts, Pie Charts, Boxplots  
+- **Data Processing:** Pandas DataFrames  
 
-- Percentage of restaurants offering online delivery: 25.66%
-- Comparison of average ratings:
-- With online delivery: 3.25
-- Without online delivery: 2.47
+---
 
-### Tools
-- Programming Language: Python
-- Libraries Used: Pandas, NumPy, Matplotlib, Seaborn
-- Data Visualization: Bar Charts, Pie charts
-- Data Processing: Pandas DataFrames for filtering and aggregating data
+## 📈 Key Findings  
 
-### Findings
-Top Three Cuisines:
+### 🍽️ Cuisine Analysis  
+- **Top 3 most popular cuisines:**  
+  - **North Indian** – 2,992 restaurants  
+  - **Chinese** – 1,880 restaurants  
+  - **Fast Food** – 1,314 restaurants  
 
-- North Indian: 2,992 restaurants
-- Chinese: 1,880 restaurants
-- Fast Food: 1,314 restaurants
+### 📍 City Insights  
+- **City with the highest number of restaurants:** **New Delhi**  
+- **Highest-rated city:** **Inner City**  
 
-City Analysis:
+### 💰 Price Range Distribution  
+- **Budget (1-star)** – 46.53%  
+- **Mid-range (2-star)** – 32.59%  
+- **Premium (3-star)** – 14.74%  
+- **Luxury (4-star)** – 6.14%  
 
-- The city with the highest number of restaurants is New Delhi.
-- The highest-rated city is Inner City.
+### 🚀 Online Delivery Impact  
+- **25.66% of restaurants offer online delivery.**  
+- **Average Ratings:**  
+  - **With Online Delivery:** 3.25  
+  - **Without Online Delivery:** 2.47  
 
-Average Ratings per City:
+---
 
-- Istanbul: 4.29
-- Abu Dhabi: 4.30
-- Agra: 3.97
-- Ahmedabad: 4.16
-
-Price Range Distribution:
-
-- Budget (1-star restaurants): 46.53%
-- Mid-range (2-star restaurants): 32.59%
-- Premium (3-star restaurants): 14.74%
-- Luxury (4-star restaurants): 6.14%
-
-Online Delivery Impact:
-
-- Percentage of restaurants offering online delivery: 25.66%
-- Comparison of average ratings:
-- Restaurants with online delivery: 3.25
-- Restaurants without online delivery: 2.47
-
-### Note
-For a better understanding, visualizations have been included in the analysis:
-
-- Cuisine distribution (Bar chart)
-- City-wise ratings (Histogram)
-- Price range distribution (Pie chart)
-- Online delivery impact on ratings (Boxplot)
+## 📢 Note  
+**Visualizations included in the analysis:**  
+- **Cuisine distribution** – Bar Chart  
+- **City-wise ratings** – Histogram  
+- **Price range distribution** – Pie Chart  
+- **Online delivery impact on ratings** – Boxplot
